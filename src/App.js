@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
-import "./App.css";
-import Search from "./components/Search";
+import { useEffect, useState } from 'react';
+import './App.css';
+import Search from './components/Search';
 import Home from './pages/home';
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       {offSet > 50 && (
-        <nav className="bg-white w-full flex flex-col py-4 border-b-2 sticky top-0 z-50">
+        <nav className="bg-gray-700 w-full flex flex-col py-4 sticky top-0 z-50">
           <button
             className="rounded-full mx-auto w-1/2 flex justify-between items-center space-x-5 focus:shadow-lg border focus:outline-none py-3 px-4"
             onClick={handleDisplaySearch}
@@ -31,13 +31,13 @@ function App() {
                 role="presentation"
                 focusable="false"
                 style={{
-                  display: "block",
-                  fill: "none",
-                  height: "16px",
-                  width: "16px",
-                  stroke: "white",
-                  strokeWidth: "4",
-                  overflow: "visible",
+                  display: 'block',
+                  fill: 'none',
+                  height: '16px',
+                  width: '16px',
+                  stroke: 'white',
+                  strokeWidth: '4',
+                  overflow: 'visible',
                 }}
               >
                 <g fill="none">
@@ -49,120 +49,12 @@ function App() {
           {isShow && <Search />}
         </nav>
       )}
-      <div className={`${offSet > 10 && "opacity-0"}`}>
+      <div className={`${offSet > 10 && 'opacity-0'}`}>
         <Search />
       </div>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nam, nisi
-      id consequuntur temporibus est modi veniam ducimus totam aut error
-      voluptas necessitatibus eius! Dolores molestias repudiandae laborum
-      beatae? Iure? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Dolore nam, nisi id consequuntur temporibus est modi veniam ducimus totam
-      aut error voluptas necessitatibus eius! Dolores molestias repudiandae
-      laborum beatae? Iure?Lorem ipsum dolor sit amet consectetur adipisicing
-      elit. Dolore nam, nisi id consequuntur temporibus est modi veniam ducimus
-      totam aut error voluptas necessitatibus eius! Dolores molestias
-      repudiandae laborum beatae? Iure?Lorem ipsum dolor sit amet consectetur
-      adipisicing elit. Dolore nam, nisi id consequuntur temporibus est modi
-      veniam ducimus totam aut error voluptas necessitatibus eius! Dolores
-      molestias repudiandae laborum beatae? Iure?Lorem ipsum dolor sit amet
-      consectetur adipisicing elit. Dolore nam, nisi id consequuntur temporibus
-      est modi veniam ducimus totam aut error voluptas necessitatibus
-      eius!pudiandae laborum beatae? Iure?Lorem ipsum dolor sit amet consectetur
-      adipisicing elit. Dolore nam, nisi id consequuntur temporibus est modi
-      veniam ducimus totam aut error voluptas necessitatibus eius! Dolores
-      molestias repudiandae laborum beatae? Iure?Lorem ipsum dolor sit amet
-      consectetur adipisicing pudiandae laborum beatae? Iure?Lorem ipsum dolor
-      sit amet consectetur adipisicing elit. Dolore nam, nisi id consequuntur
-      temporibus est modi veniam ducimus totam aut error voluptas necessitatibus
-      eius! Dolores molestias repudiandae laborum beatae? Iure?Lorem ipsum dolor
-      sit amet consectetur adipisicing pudiandae laborum beatae? Iure?Lorem
-      ipsum dolor sit amet consectetur adipisicing elit. Dolore nam, nisi id
-      consequuntur temporibus est modi veniam ducimus totam aut error voluptas
-      necessitatibus eius! Dolores molestias repudiandae laborum beatae?
-      Iure?Lorem ipsum dolor sit amet consectetur adipisicing pudiandae laborum
-      beatae? Iure?Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Dolore nam, nisi id consequuntur temporibus est modi veniam ducimus totam
-      aut error voluptas necessitatibus eius! Dolores molestias repudiandae
-      laborum beatae? Iure?Lorem ipsum dolor sit amet consectetur adipisicing
-      pudiandae laborum beatae? Iure?Lorem ipsum dolor sit amet consectetur
-      adipisicing elit. Dolore nam, nisi id consequuntur temporibus est modi
-      veniam ducimus totam aut error voluptas necessitatibus eius! Dolores
-      molestias repudiandae laborum beatae? Iure?Lorem ipsum dolor sit amet
-      consectetur adipisicing pudiandae laborum beatae? Iure?Lorem ipsum dolor
-      sit amet consectetur adipisicing elit. Dolore nam, nisi id consequuntur
-      temporibus est modi veniam ducimus totam aut error voluptas necessitatibus
-      eius! Dolores molestias repudiandae laborum beatae? Iure?Lorem ipsum dolor
-      sit amet consectetur adipisicing pudiandae laborum beatae? Iure?Lorem
-      ipsum dolor sit amet consectetur adipisicing elit. Dolore nam, nisi id
-      consequuntur temporibus est modi veniam ducimus totam aut error voluptas
-      necessitatibus eius! Dolores molestias repudiandae laborum beatae?
-      Iure?Lorem ipsum dolor sit amet consectetur adipisicing pudiandae laborum
-      beatae? Iure?Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Dolore nam, nisi id consequuntur temporibus est modi veniam ducimus totam
-      aut error voluptas necessitatibus eius! Dolores molestias repudiandae
-      laborum beatae? Iure?Lorem ipsum dolor sit amet consectetur adipisicing
-      pudiandae laborum beatae? Iure?Lorem ipsum dolor sit amet consectetur
-      adipisicing elit. Dolore nam, nisi id consequuntur temporibus est modi
-      veniam ducimus totam aut error voluptas necessitatibus eius! Dolores
-      molestias repudiandae laborum beatae? Iure?Lorem ipsum dolor sit amet
-      consectetur adipisicing Dolores molestias repudiandae laborum beatae?
-      Iure?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nam,
-      nisi id consequuntur temporibus est modi veniam ducimus totam aut error
-      voluptas necessitatibus eius! Dolores molestias repudiandae laborum
-      beatae? Iure?Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      Dolore nam, nisi id consequuntur temporibus est modi veniam ducimus totam
-      aut error voluptas necessitatibus eius! Dolores molestias repudiandae
-      laborum beatae? Iure?Lorem ipsum dolor sit amet consectetur adipisicing
-      elit. Dolore nam, nisi id consequuntur temporibus est modi veniam ducimus
-      totam aut error voluptas necessitatibus eius! Dolores molestias
-      repudiandae laborum beatae? Iure?Lorem ipsum dolor sit amet consectetur
-      adipisicing elit. Dolore nam, nisi id consequuntur temporibus est modi
-      veniam ducimus totam aut error voluptas necessitatibus eius! Dolores
-      molestias repudiandae laborum beatae? Iure?Lorem ipsum dolor sit amet
-      consectetur adipisicing elit. Dolore nam, nisi id consequuntur temporibus
-      est modi veniam ducimus totam aut error voluptas necessitatibus eius!
-      Dolores molestias repudiandae laborum beatae? Iure?Lorem ipsum dolor sit
-      amet consectetur adipisicing elit. Dolore nam, nisi id consequuntur
-      temporibus est modi veniam ducimus totam aut error voluptas necessitatibus
-      eius! Dolores molestias repudiandae laborum beatae? Iure?Lorem ipsum dolor
-      sit amet consectetur adipisicing elit. Dolore nam, nisi id consequuntur
-      temporibus est modi veniam ducimus totam aut error voluptas necessitatibus
-      eius! Dolores molestias repudiandae laborum beatae? Iure?Lorem ipsum dolor
-      sit amet consectetur adipisicing elit. Dolore nam, nisi id consequuntur
-      temporibus est modi veniam ducimus totam aut error voluptas necessitatibus
-      eius! Dolores molestias repudiandae laborum beatae? Iure? temporibus est
-      modi veniam ducimus totam aut error voluptas necessitatibus eius! Dolores
-      molestias repudiandae laborum beatae? Iure?Lorem ipsum dolor sit amet
-      consectetur adipisicing elit. Dolore nam, nisi id consequuntur temporibus
-      est modi veniam ducimus totam aut error voluptas necessitatibus eius! D
-      temporibus est modi veniam ducimus totam aut error voluptas necessitatibus
-      eius! Dolores molestias repudiandae laborum beatae? Iure?Lorem ipsum dolor
-      sit amet consectetur adipisicing elit. Dolore nam, nisi id consequuntur
-      temporibus est modi veniam ducimus totam aut error voluptas necessitatibus
-      eius! D temporibus est modi veniam ducimus totam aut error voluptas
-      necessitatibus eius! Dolores molestias repudiandae laborum beatae?
-      Iure?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nam,
-      nisi id consequuntur temporibus est modi veniam ducimus totam aut error
-      voluptas necessitatibus eius! D temporibus est modi veniam ducimus totam
-      aut error voluptas necessitatibus eius! Dolores molestias repudiandae
-      laborum beatae? Iure?Lorem ipsum dolor sit amet consectetur adipisicing
-      elit. Dolore nam, nisi id consequuntur temporibus est modi veniam ducimus
-      totam aut error voluptas necessitatibus eius! D temporibus est modi veniam
-      ducimus totam aut error voluptas necessitatibus eius! Dolores molestias
-      repudiandae laborum beatae? Iure?Lorem ipsum dolor sit amet consectetur
-      adipisicing elit. Dolore nam, nisi id consequuntur temporibus est modi
-      veniam ducimus totam aut error voluptas necessitatibus eius! D temporibus
-      est modi veniam ducimus totam aut error voluptas necessitatibus eius!
-      Dolores molestias repudiandae laborum beatae? Iure?Lorem ipsum dolor sit
-      amet consectetur adipisicing elit. Dolore nam, nisi id consequuntur
-      temporibus est modi veniam ducimus totam aut error voluptas necessitatibus
-      eius! D temporibus est modi veniam ducimus totam aut error voluptas
-      necessitatibus eius! Dolores molestias repudiandae laborum beatae?
-      Iure?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nam,
-      nisi id consequuntur temporibus est modi veniam ducimus totam aut error
-      voluptas necessitatibus eius! D
-<Home />
+
+      <Home />
     </div>
   );
-};
+}
 export default App;
