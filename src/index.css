@@ -4,7 +4,7 @@
 
 @layer components {
   .btn-effect {
-    @apply relative flex flex-col px-5 py-3 text-left hover:bg-transparent rounded-full hover:bg-gray-50 focus-within:outline-none;
+    @apply relative flex flex-col px-5 py-3 text-left hover:bg-transparent rounded-full hover:bg-gray-500 focus-within:outline-none;
   }
 }
 .btn-shadow:focus-within {
@@ -12,7 +12,7 @@
 }
 .btn-effect::before {
   position: absolute;
-  content: " ";
+  content: ' ';
   height: 32px;
   border: 0.5px solid rgb(220, 220, 220);
   right: 0;
