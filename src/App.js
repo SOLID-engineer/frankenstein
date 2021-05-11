@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import Search from "./components/Search";
+import Home from './pages/home';
 
 function App() {
   const [offSet, setOffset] = useState();
@@ -160,8 +161,8 @@ function App() {
       Iure?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nam,
       nisi id consequuntur temporibus est modi veniam ducimus totam aut error
       voluptas necessitatibus eius! D
+<Home />
     </div>
   );
-}
-
+};
 export default App;
