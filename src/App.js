@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import Search from "./components/Search";
 import Home from "./pages/home";
+
 function App() {
   const [offSet, setOffset] = useState();
   const [isShow, setIsShow] = useState(false);
@@ -21,7 +22,7 @@ function App() {
             className="rounded-full mx-auto w-1/2 flex justify-between items-center space-x-5 focus:shadow-lg border focus:outline-none py-3 px-4"
             onClick={handleDisplaySearch}
           >
-            <span> Start your search</span>
+            <span className="text-black"> Start your search</span>
             <div className="bg-red-500 rounded-full p-2">
               <svg
                 viewBox="0 0 32 32"
@@ -52,6 +53,58 @@ function App() {
         <Search />
       </div>
       <Home />
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque saepe
+      in, facilis repudiandae, quasi ullam dicta soluta, ab reprehenderit
+      inventore dignissimos quas earum dolor et quisquam quod corporis omnis.
+      Consequatur! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Doloremque saepe in, facilis repudiandae, quasi ullam dicta soluta, ab
+      reprehenderit inventore dignissimos quas earum dolor et quisquam quod
+      corporis omnis. Consequatur!Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Doloremque saepe in, facilis repudiandae, quasi ullam
+      dicta soluta, ab reprehenderit inventore dignissimos quas earum dolor et
+      quisquam quod corporis omnis. Consequatur!Lorem ipsum dolor sit amet
+      consectetur adipisicing elit. Doloremque saepe in, facilis repudiandae,
+      quasi ullam dicta soluta, ab reprehenderit inventore dignissimos quas
+      earum dolor et quisquam quod corporis omnis. Consequatur!Lorem ipsum dolor
+      sit amet consectetur adipisicing elit. Doloremque saepe in, facilis
+      repudiandae, quasi ullam dicta soluta, ab reprehenderit inventore
+      dignissimos quas earum dolor et quisquam quod corporis omnis.
+      Consequatur!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Doloremque saepe in, facilis repudiandae, quasi ullam dicta soluta, ab
+      reprehenderit inventore dignissimos quas earum dolor et quisquam quod
+      corporis omnis. Consequatur!Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Doloremque saepe in, facilis repudiandae, quasi ullam
+      dicta soluta, ab reprehenderit inventore dignissimos quas earum dolor et
+      quisquam quod corporis omnis. Consequatur!Lorem ipsum dolor sit amet
+      consectetur adipisicing elit. Doloremque saepe in, facilis repudiandae,
+      quasi ullam dicta soluta, ab reprehenderit inventore dignissimos quas
+      earum dolor et quisquam quod corporis omnis. Consequatur!Lorem ipsum dolor
+      sit amet consectetur adipisicing elit. Doloremque saepe in, facilis
+      repudiandae, quasi ullam dicta soluta, ab reprehenderit inventore
+      dignissimos quas earum dolor et quisquam quod corporis omnis.
+      Consequatur!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Doloremque saepe in, facilis repudiandae, quasi ullam dicta soluta, ab
+      reprehenderit inventore dignissimos quas earum dolor et quisquam quod
+      corporis omnis. Consequatur!Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Doloremque saepe in, facilis repudiandae, quasi ullam
+      dicta soluta, ab reprehenderit inventore dignissimos quas earum dolor et
+      quisquam quod corporis omnis. Consequatur!Lorem ipsum dolor sit amet
+      consectetur adipisicing elit. Doloremque saepe in, facilis repudiandae,
+      quasi ullam dicta soluta, ab reprehenderit inventore dignissimos quas
+      earum dolor et quisquam quod corporis omnis. Consequatur!Lorem ipsum dolor
+      sit amet consectetur adipisicing elit. Doloremque saepe in, facilis
+      repudiandae, quasi ullam dicta soluta, ab reprehenderit inventore
+      dignissimos quas earum dolor et quisquam quod corporis omnis.
+      Consequatur!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Doloremque saepe in, facilis repudiandae, quasi ullam dicta soluta, ab
+      reprehenderit inventore dignissimos quas earum dolor et quisquam quod
+      corporis omnis. Consequatur!Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Doloremque saepe in, facilis repudiandae, quasi ullam
+      dicta soluta, ab reprehenderit inventore dignissimos quas earum dolor et
+      quisquam quod corporis omnis. Consequatur!Lorem ipsum dolor sit amet
+      consectetur adipisicing elit. Doloremque saepe in, facilis repudiandae,
+      quasi ullam dicta soluta, ab reprehenderit inventore dignissimos quas
+      earum dolor et quisquam quod corporis omnis. Consequatur!
     </div>
   );
 }
