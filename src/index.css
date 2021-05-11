@@ -4,7 +4,7 @@
 
 @layer components {
   .btn-effect {
-    @apply relative flex flex-col px-5 py-3 text-left hover:bg-transparent rounded-full hover:bg-gray-50 focus-within:outline-none;
+    @apply relative flex flex-col px-5 py-3 text-left hover:bg-transparent rounded-full hover:bg-gray-500 focus-within:outline-none;
   }
 }
 .btn-shadow:focus-within {
@@ -12,14 +12,14 @@
 }
 .btn-effect::before {
   position: absolute;
-  content: " ";
+  content: ' ';
   height: 32px;
   border: 0.5px solid rgb(220, 220, 220);
   right: 0;
   top: 25%;
   border-left: 0;
 }
-=======
+
 body {
   background-color: #1d1d27;
   font-size: 16px;
@@ -30,4 +30,3 @@ body {
 
 /* --------------Home page--------------------- */
 @import url('./pages/home/style.css');
-
