@@ -24,9 +24,9 @@ body {
   background-color: #1d1d27;
   font-size: 16px;
   font-weight: normal;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #f4f4f6;
 }
 
 /* --------------Home page--------------------- */
-@import url('./pages/home/style.css');
+@import url("./pages/home/style.css");
